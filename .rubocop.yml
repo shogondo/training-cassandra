@@ -1,0 +1,4 @@
+LineLength:
+  Max: 140
+StringLiterals:
+  EnforcedStyle: double_quotes
