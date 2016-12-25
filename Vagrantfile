@@ -10,6 +10,6 @@ Vagrant.configure(2) do |config|
     provider.name = "traning-cassandora"
     provider.gui = false
     provider.cpus = 1
-    provider.memory = "1024"
+    provider.memory = "3072"
   end
 end
