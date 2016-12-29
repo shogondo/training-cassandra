@@ -48,9 +48,9 @@ class Program
 		{
 			Console.WriteLine(
 				"id: {0}, name: {1}, phone: {2}",
-				row.GetValue<string>("id"),
-				row.GetValue<string>("name"),
-				row.GetValue<string>("phone"));
+				row["id"],
+				row["name"],
+				row["phone"]);
 		}
 	}
 }
